@@ -128,7 +128,7 @@ function GetSelectedValues(){
     })
     var ctx = document.getElementById('myChart1').getContext('2d');
     var myChart1 = new Chart(ctx, {
-      type: 'bar',
+      type: 'radar',
       data:{
         labels:["Nitrogen Dioxide","Ozone","Sulfur Dioxide","Carbon Dioxide"],
         datasets:[
